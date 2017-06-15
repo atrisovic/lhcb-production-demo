@@ -9,15 +9,15 @@ importOptions('$APPCONFIGOPTS/Persistency/Compression-ZLIB-1.py')
 from ProdConf import ProdConf
 
 ProdConf(
-    NOfEvents=2,
+    NOfEvents=1,
     DDDBTag='dddb-20150928',
     AppVersion='v30r1',
-    InputFiles=['1/file.sim'],
-    XMLSummaryFile='./2/summary.xml',
+    InputFiles=['output_gauss.sim'],
+    XMLSummaryFile='summary_boole.xml',
     Application='Boole',
-    OutputFilePrefix='./2/file',
+    OutputFilePrefix='output_boole',
     RunNumber=12345,
-    XMLFileCatalog='./2/pool_xml_catalog.xml',
+    XMLFileCatalog='pool_xml_catalog_boole.xml',
     FirstEventNumber=6789,
     CondDBTag='sim-20160321-2-vc-mu100',
     OutputFileTypes=['digi']

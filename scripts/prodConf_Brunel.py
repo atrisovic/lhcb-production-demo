@@ -9,14 +9,14 @@ importOptions('$APPCONFIGOPTS/Persistency/Compression-ZLIB-1.py')
 from ProdConf import ProdConf
 
 ProdConf(
-    NOfEvents=2,
+    NOfEvents=1,
     DDDBTag='dddb-20150928',
     AppVersion='v43r2p11',
-    InputFiles=['4/file.dst'],
-    XMLSummaryFile='./5/summary.xml',
+    InputFiles=['output_moore.dst'],
+    XMLSummaryFile='summary_brunel.xml',
     Application='Brunel',
-    OutputFilePrefix='./5/file',
-    XMLFileCatalog='./5/pool_xml_catalog.xml',
+    OutputFilePrefix='output_brunel',
+    XMLFileCatalog='pool_xml_catalog_brunel.xml',
     CondDBTag='sim-20160321-2-vc-mu100',
     OutputFileTypes=['dst']
 )

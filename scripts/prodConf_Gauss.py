@@ -12,14 +12,14 @@ importOptions('$APPCONFIGOPTS/Persistency/Compression-ZLIB-1.py')
 from ProdConf import ProdConf
 
 ProdConf(
-    NOfEvents=2,
+    NOfEvents=1,
     DDDBTag='dddb-20150928',
     AppVersion='v49r1',
-    XMLSummaryFile='./1/summary.xml',
+    XMLSummaryFile='summary_gauss.xml',
     Application='Gauss',
-    OutputFilePrefix='./1/file',
+    OutputFilePrefix='output_gauss',
     RunNumber=12345,
-    XMLFileCatalog='./1/pool_xml_catalog.xml',
+    XMLFileCatalog='pool_xml_catalog_gauss.xml',
     FirstEventNumber=6789,
     CondDBTag='sim-20160321-2-vc-mu100',
     OutputFileTypes=['sim']

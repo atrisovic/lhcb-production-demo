@@ -7,14 +7,14 @@ importOptions('$APPCONFIGOPTS/Moore/DataType-2012.py')
 from ProdConf import ProdConf
 
 ProdConf(
-    NOfEvents=2,
+    NOfEvents=1,
     DDDBTag='dddb-20150928',
     AppVersion='v14r8p1',
-    InputFiles=['3/file.digi'],
-    XMLSummaryFile='./4/summary.xml',
+    InputFiles=['output_moorel0.digi'],
+    XMLSummaryFile='summary_moore.xml',
     Application='Moore',
-    OutputFilePrefix='./4/file',
-    XMLFileCatalog='./4/pool_xml_catalog.xml',
+    OutputFilePrefix='output_moore',
+    XMLFileCatalog='pool_xml_catalog.xml',
     CondDBTag='sim-20160321-2-vc-mu100',
     OutputFileTypes=['digi']
 )

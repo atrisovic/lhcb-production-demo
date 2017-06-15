@@ -11,11 +11,11 @@ ProdConf(
     NOfEvents=2,
     DDDBTag='dddb-20150928',
     AppVersion='v36r1p3',
-    InputFiles=['5/file.dst'],
-    XMLSummaryFile='./6/summary.xml',
+    InputFiles=['output_brunel.dst'],
+    XMLSummaryFile='summary_davinci.xml',
     Application='DaVinci',
-    OutputFilePrefix='./6/allstreams',
-    XMLFileCatalog='./6/pool_xml_catalog.xml',
+    OutputFilePrefix='allstreams',
+    XMLFileCatalog='pool_xml_catalog_davinci.xml',
     CondDBTag='sim-20160321-2-vc-mu100',
     OutputFileTypes=['dst']
 )
