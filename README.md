@@ -4,7 +4,7 @@ Simple Monte Carlo production chain.
 
 ## Data simulated
 
-This sample was used in [atrisovic/analysis-case-study]{https://github.com/atrisovic/analysis-case-study}. 
+This sample was used in [atrisovic/analysis-case-study](https://github.com/atrisovic/analysis-case-study). 
 Bookkeeping path: `MC/2011/Beam3500GeV-2011-MagDown-Nu2-Pythia8/Sim08a/Digi13/Trig0x40760037/Reco14a/Stripping20r1NoPrescalingFlagged/21113001`
 
 More info:
