@@ -22,5 +22,5 @@ Build and run the image with:
 
 ```
 $ docker build -t prod .
-$ docker run -h dev --privileged -it --rm prod
+docker run -v /cvmfs:/cvmfs -it --rm prod /bin/bash 
 ```
