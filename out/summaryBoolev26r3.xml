@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<summary version="1.0" xsi:noNamespaceSchemaLocation="$XMLSUMMARYBASEROOT/xml/XMLSummary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<success>True</success>
+	<step>finalize</step>
+	<usage>
+		<stat unit="KB" useOf="MemoryMaximum">1342584.0</stat>
+	</usage>
+	<input>
+		<file GUID="D8DDE8E9-9709-E811-9CEE-0242AC110003" name="PFN:00012345_00006789_1.sim" status="part">1</file>
+	</input>
+	<output>
+		<file GUID="EC8A741A-9809-E811-838F-0242AC110003" name="PFN:00012345_00006789_2-1ev.digi" status="full">1</file>
+	</output>
+	<counters>
+		<counter name="UnpackMCMuonHits/# UnPackedData">421</counter>
+		<counter name="UnpackMCVeloHits/# UnPackedData">1310</counter>
+		<counter name="UnpackMCPuVetoHits/# UnPackedData">34</counter>
+		<counter name="UnpackMCTTHits/# UnPackedData">417</counter>
+		<counter name="UnpackMCITHits/# UnPackedData">552</counter>
+		<counter name="UnpackMCOTHits/# UnPackedData">1082</counter>
+		<counter name="UnpackMCRichHits/# UnPackedData">3588</counter>
+		<counter name="UnpackMCSpdHits/# UnPackedData">1631</counter>
+		<counter name="UnpackMCPrsHits/# UnPackedData">2661</counter>
+		<counter name="UnpackMCEcalHits/# UnPackedData">3710</counter>
+		<counter name="UnpackMCHcalHits/# UnPackedData">778</counter>
+		<counter name="TTClusterKiller/Dead">0</counter>
+		<counter name="TTClusterKiller/Processed">365</counter>
+		<counter name="ITClusterKiller/Dead">0</counter>
+		<counter name="ITClusterKiller/Processed">505</counter>
+		<counter name="RichPDSignal/Found MCRichHits at MC/Rich/Hits">1</counter>
+		<counter name="EcalDigitMCTruth/#Digit-&gt;MC links">6403</counter>
+		<counter name="HcalDigitMCTruth/#Digit-&gt;MC links">1317</counter>
+		<counter name="TTClusterMonitor/Number of events">1</counter>
+		<counter name="ITClusterMonitor/Number of events">1</counter>
+		<counter name="MCRichDigitSummaryPacker/# PackedData">3626</counter>
+		<counter name="CounterSummarySvc/handled">4</counter>
+	</counters>
+	<lumiCounters />
+</summary>

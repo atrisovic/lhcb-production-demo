@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<summary version="1.0" xsi:noNamespaceSchemaLocation="$XMLSUMMARYBASEROOT/xml/XMLSummary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<success>True</success>
+	<step>finalize</step>
+	<usage>
+		<stat unit="KB" useOf="MemoryMaximum">1250804.0</stat>
+	</usage>
+	<input>
+		<file GUID="" name="PFN:00012345_00006789_3.digi" status="full">0</file>
+	</input>
+	<output>
+		<file GUID="" name="PFN:00012345_00006789_4.dst" status="full">0</file>
+	</output>
+	<counters>
+		<counter name="CreateTTClusters/# valid banks">0</counter>
+		<counter name="CreateTTClusters/skipped Banks">0</counter>
+		<counter name="CreateTTLiteClusters/# valid banks">0</counter>
+		<counter name="CreateTTLiteClusters/skipped Banks">0</counter>
+		<counter name="CreateITClusters/# valid banks">0</counter>
+		<counter name="CreateITClusters/skipped Banks">0</counter>
+		<counter name="CreateITLiteClusters/# valid banks">0</counter>
+		<counter name="CreateITLiteClusters/skipped Banks">0</counter>
+		<counter name="TrackBestTrackCreator/FitFailed">0</counter>
+		<counter name="MuonIDAlg/nGoodTracksForMuonID">0</counter>
+		<counter name="MuonIDAlg/nInAcceptance">0</counter>
+		<counter name="MuonIDAlg/nIsMuon">0</counter>
+		<counter name="MuonIDAlg/nIsMuonLoose">0</counter>
+		<counter name="MuonIDAlg/nIsMuonTight">0</counter>
+		<counter name="MuonIDAlg/nMomentumPresel">0</counter>
+		<counter name="MuonIDAlg/nMuonPIDs">0</counter>
+		<counter name="MuonTrackFitter/nTracks">0</counter>
+		<counter name="Velo/nFound">0</counter>
+		<counter name="Velo/nFoundB">0</counter>
+		<counter name="Velo/nFoundBAll">0</counter>
+		<counter name="Velo/nFoundG5">0</counter>
+		<counter name="Velo/nFoundG5B">0</counter>
+		<counter name="Velo/nFoundG5BAll">0</counter>
+		<counter name="Velo/nFoundG5IP">0</counter>
+		<counter name="Velo/nFoundG5KsL">0</counter>
+		<counter name="Velo/nFoundIP">0</counter>
+		<counter name="Velo/nFoundKsL">0</counter>
+		<counter name="Velo/nGhost">0</counter>
+		<counter name="Velo/nToFind">0</counter>
+		<counter name="Velo/nToFindB">0</counter>
+		<counter name="Velo/nToFindBAll">0</counter>
+		<counter name="Velo/nToFindG5">0</counter>
+		<counter name="Velo/nToFindG5B">0</counter>
+		<counter name="Velo/nToFindG5BAll">0</counter>
+		<counter name="Velo/nToFindG5IP">0</counter>
+		<counter name="Velo/nToFindG5KsL">0</counter>
+		<counter name="Velo/nToFindIP">0</counter>
+		<counter name="Velo/nToFindKsL">0</counter>
+		<counter name="Velo/nTrack">0</counter>
+		<counter name="VeloTT/nFound">0</counter>
+		<counter name="VeloTT/nFoundB">0</counter>
+		<counter name="VeloTT/nFoundBAll">0</counter>
+		<counter name="VeloTT/nFoundG5">0</counter>
+		<counter name="VeloTT/nFoundG5B">0</counter>
+		<counter name="VeloTT/nFoundG5BAll">0</counter>
+		<counter name="VeloTT/nFoundG5IP">0</counter>
+		<counter name="VeloTT/nFoundG5KsL">0</counter>
+		<counter name="VeloTT/nFoundIP">0</counter>
+		<counter name="VeloTT/nFoundKsL">0</counter>
+		<counter name="VeloTT/nGhost">0</counter>
+		<counter name="VeloTT/nToFind">0</counter>
+		<counter name="VeloTT/nToFindB">0</counter>
+		<counter name="VeloTT/nToFindBAll">0</counter>
+		<counter name="VeloTT/nToFindG5">0</counter>
+		<counter name="VeloTT/nToFindG5B">0</counter>
+		<counter name="VeloTT/nToFindG5BAll">0</counter>
+		<counter name="VeloTT/nToFindG5IP">0</counter>
+		<counter name="VeloTT/nToFindG5KsL">0</counter>
+		<counter name="VeloTT/nToFindIP">0</counter>
+		<counter name="VeloTT/nToFindKsL">0</counter>
+		<counter name="VeloTT/nTrack">0</counter>
+		<counter name="Forward/nFound">0</counter>
+		<counter name="Forward/nFoundB">0</counter>
+		<counter name="Forward/nFoundBAll">0</counter>
+		<counter name="Forward/nFoundG5">0</counter>
+		<counter name="Forward/nFoundG5B">0</counter>
+		<counter name="Forward/nFoundG5BAll">0</counter>
+		<counter name="Forward/nFoundG5IP">0</counter>
+		<counter name="Forward/nFoundG5KsL">0</counter>
+		<counter name="Forward/nFoundIP">0</counter>
+		<counter name="Forward/nFoundKsL">0</counter>
+		<counter name="Forward/nGhost">0</counter>
+		<counter name="Forward/nToFind">0</counter>
+		<counter name="Forward/nToFindB">0</counter>
+		<counter name="Forward/nToFindBAll">0</counter>
+		<counter name="Forward/nToFindG5">0</counter>
+		<counter name="Forward/nToFindG5B">0</counter>
+		<counter name="Forward/nToFindG5BAll">0</counter>
+		<counter name="Forward/nToFindG5IP">0</counter>
+		<counter name="Forward/nToFindG5KsL">0</counter>
+		<counter name="Forward/nToFindIP">0</counter>
+		<counter name="Forward/nToFindKsL">0</counter>
+		<counter name="Forward/nTrack">0</counter>
+		<counter name="TTrack/nFound">0</counter>
+		<counter name="TTrack/nFoundB">0</counter>
+		<counter name="TTrack/nFoundBAll">0</counter>
+		<counter name="TTrack/nFoundG5">0</counter>
+		<counter name="TTrack/nFoundG5B">0</counter>
+		<counter name="TTrack/nFoundG5BAll">0</counter>
+		<counter name="TTrack/nFoundG5IP">0</counter>
+		<counter name="TTrack/nFoundG5KsL">0</counter>
+		<counter name="TTrack/nFoundIP">0</counter>
+		<counter name="TTrack/nFoundKsL">0</counter>
+		<counter name="TTrack/nGhost">0</counter>
+		<counter name="TTrack/nToFind">0</counter>
+		<counter name="TTrack/nToFindB">0</counter>
+		<counter name="TTrack/nToFindBAll">0</counter>
+		<counter name="TTrack/nToFindG5">0</counter>
+		<counter name="TTrack/nToFindG5B">0</counter>
+		<counter name="TTrack/nToFindG5BAll">0</counter>
+		<counter name="TTrack/nToFindG5IP">0</counter>
+		<counter name="TTrack/nToFindG5KsL">0</counter>
+		<counter name="TTrack/nToFindIP">0</counter>
+		<counter name="TTrack/nToFindKsL">0</counter>
+		<counter name="TTrack/nTrack">0</counter>
+		<counter name="Match/nFound">0</counter>
+		<counter name="Match/nFoundB">0</counter>
+		<counter name="Match/nFoundBAll">0</counter>
+		<counter name="Match/nFoundG5">0</counter>
+		<counter name="Match/nFoundG5B">0</counter>
+		<counter name="Match/nFoundG5BAll">0</counter>
+		<counter name="Match/nFoundG5IP">0</counter>
+		<counter name="Match/nFoundG5KsL">0</counter>
+		<counter name="Match/nFoundIP">0</counter>
+		<counter name="Match/nFoundKsL">0</counter>
+		<counter name="Match/nGhost">0</counter>
+		<counter name="Match/nToFind">0</counter>
+		<counter name="Match/nToFindB">0</counter>
+		<counter name="Match/nToFindBAll">0</counter>
+		<counter name="Match/nToFindG5">0</counter>
+		<counter name="Match/nToFindG5B">0</counter>
+		<counter name="Match/nToFindG5BAll">0</counter>
+		<counter name="Match/nToFindG5IP">0</counter>
+		<counter name="Match/nToFindG5KsL">0</counter>
+		<counter name="Match/nToFindIP">0</counter>
+		<counter name="Match/nToFindKsL">0</counter>
+		<counter name="Match/nTrack">0</counter>
+		<counter name="Downstream/nFound">0</counter>
+		<counter name="Downstream/nFoundB">0</counter>
+		<counter name="Downstream/nFoundBAll">0</counter>
+		<counter name="Downstream/nFoundG5">0</counter>
+		<counter name="Downstream/nFoundG5B">0</counter>
+		<counter name="Downstream/nFoundG5BAll">0</counter>
+		<counter name="Downstream/nFoundG5IP">0</counter>
+		<counter name="Downstream/nFoundG5KsL">0</counter>
+		<counter name="Downstream/nFoundIP">0</counter>
+		<counter name="Downstream/nFoundKsL">0</counter>
+		<counter name="Downstream/nGhost">0</counter>
+		<counter name="Downstream/nToFind">0</counter>
+		<counter name="Downstream/nToFindB">0</counter>
+		<counter name="Downstream/nToFindBAll">0</counter>
+		<counter name="Downstream/nToFindG5">0</counter>
+		<counter name="Downstream/nToFindG5B">0</counter>
+		<counter name="Downstream/nToFindG5BAll">0</counter>
+		<counter name="Downstream/nToFindG5IP">0</counter>
+		<counter name="Downstream/nToFindG5KsL">0</counter>
+		<counter name="Downstream/nToFindIP">0</counter>
+		<counter name="Downstream/nToFindKsL">0</counter>
+		<counter name="Downstream/nTrack">0</counter>
+		<counter name="BestTracks/nFound">0</counter>
+		<counter name="BestTracks/nFoundB">0</counter>
+		<counter name="BestTracks/nFoundBAll">0</counter>
+		<counter name="BestTracks/nFoundG5">0</counter>
+		<counter name="BestTracks/nFoundG5B">0</counter>
+		<counter name="BestTracks/nFoundG5BAll">0</counter>
+		<counter name="BestTracks/nFoundG5IP">0</counter>
+		<counter name="BestTracks/nFoundG5KsL">0</counter>
+		<counter name="BestTracks/nFoundIP">0</counter>
+		<counter name="BestTracks/nFoundKsL">0</counter>
+		<counter name="BestTracks/nGhost">0</counter>
+		<counter name="BestTracks/nToFind">0</counter>
+		<counter name="BestTracks/nToFindB">0</counter>
+		<counter name="BestTracks/nToFindBAll">0</counter>
+		<counter name="BestTracks/nToFindG5">0</counter>
+		<counter name="BestTracks/nToFindG5B">0</counter>
+		<counter name="BestTracks/nToFindG5BAll">0</counter>
+		<counter name="BestTracks/nToFindG5IP">0</counter>
+		<counter name="BestTracks/nToFindG5KsL">0</counter>
+		<counter name="BestTracks/nToFindIP">0</counter>
+		<counter name="BestTracks/nToFindKsL">0</counter>
+		<counter name="BestTracks/nTrack">0</counter>
+		<counter name="CounterSummarySvc/handled">3</counter>
+	</counters>
+	<lumiCounters />
+</summary>

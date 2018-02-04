@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="D8DDE8E9-9709-E811-9CEE-0242AC110003">
+    <physical>
+      <pfn filetype="ROOT" name="00012345_00006789_1.sim"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>
