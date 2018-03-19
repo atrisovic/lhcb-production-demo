@@ -22,5 +22,11 @@ Build and run the image with:
 
 ```
 $ docker build -t prod .
-docker run -v /cvmfs:/cvmfs -it --rm prod /bin/bash 
+docker run -v /cvmfs:/cvmfs:Z -it --rm prod /bin/bash 
 ```
+
+## Troubleshooting
+
+Error: `line 3: /cvmfs/lhcb.cern.ch/lib/LbLogin.sh: Too many levels of symbolic links`
+Solution: Exit container and run again.
+
