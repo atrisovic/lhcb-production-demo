@@ -1,0 +1,77 @@
+ID: 46264
+Name: B2OC - Sim09c Model for 2015 - MU - Pythia8 - pstefko
+Type: Simulation
+State: Done
+Priority: 1a
+Author: abirnkra WG: B2OC
+Event type: 11198050 Bd_D0DK,K3Pi,KPiPi=sqDalitz13,DecProdCut
+Number of events: 325000
+Starting Date: 2018-01-31
+Finalization Date: 2018-02-20
+Fast Simulation Type:
+Retention Rate: 1
+Test state:
+
+Simulation Conditions: Beam6500GeV-2015-MagUp-Nu1.6-25ns-Pythia8
+Beam: beta*~3m, zpv=3.0mm, xAngle=-0.105mrad and yAngle=0 Beam energy: 6500 GeV Generator: Pythia8 G4 settings: specified in sim step
+Magnetic field: 1 Detector: 2015, Velo closed around average x=0.778mm and y=0.131mm Luminosity: pp collisions nu = 1.6, 25ns spillover
+
+Processing Pass: Sim09c/Trig0x411400a2/Reco15a/Turbo02/Stripping24r1NoPrescalingFlagged
+MC Version: 2015
+
+Step 1 Sim09c - 2015 Nominal - MU - Nu1.6 (Lumi 4 at 25ns) - 25ns spillover - Pythia8(133198/Sim09c) : Gauss-v49r8
+System config: x86_64-slc6-gcc48-opt MC TCK:
+Options: $APPCONFIGOPTS/Gauss/Beam6500GeV-mu100-2015-nu1.6.py;$APPCONFIGOPTS/Gauss/EnableSpillover-25ns.py;$APPCONFIGOPTS/Gauss/DataType-2015.py;$APPCONFIGOPTS/Gauss/RICHRandomHits.py;$DECFILESROOT/options/@{eventType}.py;$LBPYTHIA8ROOT/options/Pythia8.py;$APPCONFIGOPTS/Gauss/G4PL_FTFP_BERT_EmNoCuts.py Options format: Multicore: N
+DDDB: dddb-20170721-3 Condition DB: sim-20161124-vc-mu100 DQTag:
+Extra: AppConfig.v3r335;DecFiles.v30r9 Runtime projects:
+Visible: Y Usable:Yes
+Input file types: Output file types: SIM
+
+Step 2 Digi14b for 2015 - 25ns spillover(132434/Digi14b) : Boole-v30r2p1
+System config: x86_64-slc6-gcc49-opt MC TCK:
+Options: $APPCONFIGOPTS/Boole/Default.py;$APPCONFIGOPTS/Boole/EnableSpillover.py;$APPCONFIGOPTS/Boole/DataType-2015.py;$APPCONFIGOPTS/Boole/Boole-SetOdinRndTrigger.py Options format: Multicore: N
+DDDB: fromPreviousStep Condition DB: fromPreviousStep DQTag:
+Extra: AppConfig.v3r338 Runtime projects:
+Visible: N Usable:Yes
+Input file types: SIM Output file types: DIGI
+
+Step 3 L0 emulation for 2015 - TCK 0x00a2(129526/L0Trig0x00a2) : Moore-v24r2
+System config: x86_64-slc6-gcc48-opt MC TCK:
+Options: $APPCONFIGOPTS/L0App/L0AppSimProduction.py;$APPCONFIGOPTS/L0App/L0AppTCK-0x00a2.py;$APPCONFIGOPTS/L0App/ForceLUTVersionV8.py;$APPCONFIGOPTS/L0App/DataType-2015.py;$APPCONFIGOPTS/Persistency/Compression-ZLIB-1.py Options format: l0app Multicore: N
+DDDB: fromPreviousStep Condition DB: fromPreviousStep DQTag:
+Extra: AppConfig.v3r268 Runtime projects:
+Visible: N Usable:Yes
+Input file types: DIGI(N) Output file types: DIGI(N)
+
+Step 4 TCK-0x411400a2 Flagged for 2015(129527/Trig0x411400a2) : Moore-v24r2
+System config: x86_64-slc6-gcc48-opt MC TCK:
+Options: $APPCONFIGOPTS/Moore/MooreSimProductionForSeparateL0AppStep2015.py;$APPCONFIGOPTS/Conditions/TCK-0x411400a2.py;$APPCONFIGOPTS/Moore/DataType-2015.py;$APPCONFIGOPTS/Persistency/Compression-ZLIB-1.py Options format: Multicore: N
+DDDB: fromPreviousStep Condition DB: fromPreviousStep DQTag:
+Extra: AppConfig.v3r268 Runtime projects:
+Visible: Y Usable:Yes
+Input file types: DIGI(N) Output file types: DIGI(N)
+
+Step 5 Reco15a for MC 2015(130611/Reco15a) : Brunel-v48r2p1
+System config: x86_64-slc6-gcc48-opt MC TCK:
+Options: $APPCONFIGOPTS/Brunel/DataType-2015.py;$APPCONFIGOPTS/Brunel/MC-WithTruth.py;$APPCONFIGOPTS/Persistency/Compression-ZLIB-1.py Options format: Multicore: N
+DDDB: fromPreviousStep Condition DB: fromPreviousStep DQTag:
+Extra: AppConfig.v3r277;SQLDDDB.v7r10 Runtime projects:
+Visible: Y Usable:Yes
+Input file types: DIGI(N) Output file types: DST(N)
+
+Step 6 Turbo lines (MC), Turbo 2015 reprocessing(129522/Turbo02) : DaVinci-v40r1p3
+System config: x86_64-slc6-gcc48-opt MC TCK:
+Options: $APPCONFIGOPTS/Turbo/Tesla_AllHlt2Lines_v10r0_0x00fa0051.py;$APPCONFIGOPTS/Turbo/Tesla_Simulation_2015_PVHLT2.py Options format: Tesla Multicore: N
+DDDB: fromPreviousStep Condition DB: fromPreviousStep DQTag:
+Extra: AppConfig.v3r232;TurboStreamProd.v2r0 Runtime projects:
+Visible: Y Usable:Yes
+Input file types: DST(N) Output file types: DST(N)
+
+Step 7 Stripping24r1-NoPrescalingFlagged for Sim09 - pp at 13 TeV (muDST)(132850/Stripping24r1NoPrescalingFlagged) : DaVinci-v38r1p6
+System config: x86_64-slc6-gcc49-opt MC TCK:
+Options: $APPCONFIGOPTS/DaVinci/DV-Stripping24r1-Stripping-MC-NoPrescaling-DST.py;$APPCONFIGOPTS/DaVinci/DV-Stripping-MC-muDST.py;$APPCONFIGOPTS/DaVinci/DataType-2015.py;$APPCONFIGOPTS/DaVinci/InputType-DST.py Options format: Multicore: N
+DDDB: fromPreviousStep Condition DB: fromPreviousStep DQTag:
+Extra: AppConfig.v3r343 Runtime projects:
+Visible: Y Usable:Yes
+Input file types: DST Output file types: ALLSTREAMS.MDST
+

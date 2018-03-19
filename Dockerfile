@@ -3,5 +3,4 @@ MAINTAINER Ana Trisovic "ana.trisovic@cern.ch"
 
 WORKDIR "/workspace"
 
-COPY scripts/* /workspace/
-COPY workflow.sh /workspace/
+COPY run2-sim-demo /workspace/
