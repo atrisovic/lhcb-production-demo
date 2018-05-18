@@ -28,5 +28,12 @@ docker run -v /cvmfs:/cvmfs:Z -it --rm prod /bin/bash
 ## Troubleshooting
 
 Error: `line 3: /cvmfs/lhcb.cern.ch/lib/LbLogin.sh: Too many levels of symbolic links`
-Solution: Exit container and run again.
 
+Solution: 
+Exit container and run again.
+
+Error:
+`When DDDB ERROR Problems opening database`
+
+Solution:
+run `export LC_CTYPE=en_US.UTF-8`
